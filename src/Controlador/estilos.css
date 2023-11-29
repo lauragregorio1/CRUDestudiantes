@@ -1,0 +1,16 @@
+.button {
+    -fx-background-color: #0802A3; /* Color de fondo */
+    -fx-text-fill: white; /* Color del texto */
+    -fx-font-size: 12.0px; /* Tamaño de la fuente */
+	-fx-background-radius: 15.0;   
+ 	-fx-scale-x: 1.0; /* Escala inicial en el eje X */
+    -fx-scale-y: 1.0; /* Escala inicial en el eje Y */
+    -fx-transition: all 0.3s;
+}
+
+.button:hover {
+    -fx-scale-x: 1.1; /* Escala al hacer hover en el eje X */
+    -fx-scale-y: 1.1; /* Escala al hacer hover en el eje Y */
+    -fx-background-color: #87C4FF;
+    
+}
